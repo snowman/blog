@@ -38,7 +38,7 @@
   - [[https://www.reddit.com/r/emacs/comments/jc4uou/tags_everywhere/][Tags everywhere... : emacs]]
 * War
 - [[https://code2048.com/series/%E5%9C%A3%E6%88%98%E7%B3%BB%E5%88%97/][圣战系列 | 神秘的程序员们]]
-* misc
+* Misc
 - [[https://www.reddit.com/r/emacs/comments/i1wfnc/one_day_in_one_frame_mockup/][One day in one frame (mockup) : emacs]]
 - [[https://www.reddit.com/r/emacs/comments/j3z8tb/nano_emacs_sort_of/][Nano Emacs (sort of) : emacs]]
 - [[https://www.reddit.com/r/emacs/comments/k1vl00/putting_all_the_pieces_together/][Putting all the pieces together : emacs]]
