@@ -1,0 +1,30 @@
+#+TITLE: 友情链接
+#+DATE: 2020-12-13 Sun 11:28
+#+DRAFT: false
+#+TAGS[]:
+#+KEYWORDS[]:
+#+SLUG:
+#+SUMMARY:
+
+#+begin_quote
+  如果你拥有独立博客，喜欢思考，认同我的博客风格，欢迎交换友链。
+#+end_quote
+
+- [[http://www.yinwang.org][王垠]] 当然我在扯淡
+  - [[https://yinwang1.wordpress.com][正常人类收容所]]
+- [[https://liujiacai.net][刘家财]] Do have faith in what you are doing.
+- [[https://jysperm.me][王子亭]] 高中退学，坚持十余年的 独立博客 作者
+- [[https://mednoter.com][吕小荣]] a Ruby developer
+- [[https://chloerei.com][Rei]] another Ruby developer
+- [[https://zilongshanren.com][子龙山人]] Cocos Creator
+- [[https://www.lengyueyang.com][lengyueyang]] 深度识医
+- [[http://xiaohanyu.me][Xiao Hanyu]] 行者无疆, 始于足下
+  - FROM [[http://xiaohanyu.me/posts/2014-05-04-build-static-site-with-nanoc-1/][Build Static Site with Nanoc (I)]]
+- [[https://kiteab.ga][KiteAB]] 一个普通的小学生
+- [[https://abhixec.com][abhixec]] Software Engineer
+- [[https://shapeshed.com][George Ornbo]] Software Engineer
+- [[https://1byte.io][1 Byte]] 江宏 - LeanCloud 联合创始人 / CEO
+- [[https://shidenggui.com][Shidenggui]] - 人生意何存，我思故我在
+  - FROM [[https://www.v2ex.com/t/646097][下定决心写了一个自己的博客系统, 希望小伙伴们能给一点意见 - V2EX]]
+- [[https://www.hanselman.com/blog/][Scott Hanselman]] programmer, teacher, and speaker
+- [[http://nasy.moe/][Nasy Land]] Nasy 就是 Nasy 啦!

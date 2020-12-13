@@ -1,0 +1,44 @@
+#+TITLE: Emacs Guidance
+#+DATE: 2020-12-12T22:42:47+08:00
+#+TAGS[]: portal emacs
+#+CATEGORIES[]: info
+
+* Info
+- [[https://liujiacai.net/blog/2020/11/25/why-emacs/][Emacs 入门指南: Why & How - Keep Coding]]
+- [[http://book.emacs-china.org][Master Emacs in 21 Days]]
+- [[https://emacs.sexy][Emacs is sexy]]
+- [[http://emacsrocks.com/][Emacs Rocks!]]
+- [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][Master Emacs in One Year]]
+- [[https://riptutorial.com/emacs][Emacs - Getting started with Emacs | Emacs Tutorial]]
+* Book
+- [[http://www.harley.com/emacs/][Harley Hahn's Emacs Field Guide]]
+- [[https://www.masteringemacs.org][Mastering Emacs]]
+- [[https://learning.oreilly.com/library/view/writing-gnu-emacs/9781449395056/][Writing GNU Emacs Extensions]]
+* Blog
+- [[https://sachachua.com/blog/][Sacha Chua]]
+* Forum
+- [[https://emacs-china.org][Emacs China]]
+- [[https://www.reddit.com/r/emacs/][M-x emacs-reddit]]
+* Help
+- [[https://www.emacswiki.org][EmacsWiki: Site Map]]
+- [[http://ergoemacs.org/][Xah Emacs Site]]
+* Config
+- [[https://www.emacswiki.org/emacs/StarterKits][EmacsWiki: Starter Kits]]
+- [[https://wikemacs.org/wiki/Starter_Kits][Starter Kits - WikEmacs]]
+- [[https://github.com/rougier/elegant-emacs][rougier/elegant-emacs: A very minimal but elegant emacs]]
+* Chat
+- [[https://t.me/emacs_zh][Emacs 中文 - Telegram]]
+- [[https://t.me/emacs_en][Emacs (English) - Telegram]]
+* Packages
+- [[https://github.com/abo-abo/swiper][abo-abo/swiper - a generic completion frontend for Emacs]]
+- [[https://github.com/winterTTr/ace-jump-mode][winterTTr/ace-jump-mode - a quick cursor jump mode for emacs]]
+- [[https://elpa.gnu.org/packages/undo-tree.html][undo-tree - Treat undo history as a tree]] ([[https://www.emacswiki.org/emacs/UndoTree][wiki]])
+- [[https://github.com/abo-abo/hydra][abo-abo/hydra: make Emacs bindings that stick around]]
+- [[https://github.com/rougier/svg-tag-mode][rougier/svg-tag-mode: A minor mode for Emacs that replace keywords with nice SVG labels]]
+  - [[https://www.reddit.com/r/emacs/comments/jc4uou/tags_everywhere/][Tags everywhere... : emacs]]
+* War
+- [[https://code2048.com/series/%E5%9C%A3%E6%88%98%E7%B3%BB%E5%88%97/][圣战系列 | 神秘的程序员们]]
+* misc
+- [[https://www.reddit.com/r/emacs/comments/i1wfnc/one_day_in_one_frame_mockup/][One day in one frame (mockup) : emacs]]
+- [[https://www.reddit.com/r/emacs/comments/j3z8tb/nano_emacs_sort_of/][Nano Emacs (sort of) : emacs]]
+- [[https://www.reddit.com/r/emacs/comments/k1vl00/putting_all_the_pieces_together/][Putting all the pieces together : emacs]]
