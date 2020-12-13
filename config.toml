@@ -111,7 +111,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = []
+  customCSS = ["styles.css"]
   customJS = []
 
   uglyURLs = false          # please keep same with uglyurls setting
@@ -231,3 +231,14 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #  section = ["HTML", "RSS"]
 #  taxonomy = ["HTML", "RSS"]
 #  taxonomyTerm = ["HTML"]
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "atom"
+
+[frontmatter]
+  date = [":filename", ":default", ":fileModTime"]
+
+[permalinks]
+  post = "/blog/:year/:month/:day/:slug/"
