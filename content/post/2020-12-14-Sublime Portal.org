@@ -1,0 +1,7 @@
+#+TITLE: Sublime Guidance
+#+DATE: 2020-12-14T12:59:45+08:00
+#+TAGS[]: portal sublime
+#+CATEGORIES[]: info
+
+* Info
+- [[http://lucida.me/blog/sublime-text-complete-guide/][Sublime Text 全程指南 | lucida]]
