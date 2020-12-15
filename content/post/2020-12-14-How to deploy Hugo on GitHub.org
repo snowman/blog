@@ -1,0 +1,16 @@
+#+TITLE: How to deploy Hugo on GitHub?
+#+DATE: 2020-12-14T19:49:31+08:00
+#+TAGS[]: help
+#+CATEGORIES[]: workflow
+
+* Link
+- [[https://stackoverflow.com/questions/4750520/git-branch-gh-pages][git branch: gh-pages - Stack Overflow]]
+  - GitHub has just enabled using [[https://github.com/blog/2228-simpler-github-pages-publishing][any branch and directory as the source for the docs]].
+
+    You no longer have to use =gh-pages=.
+- [[https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site][Configuring a publishing source for your GitHub Pages site - GitHub Docs]]
+- [[https://pages.github.com/][GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.]]
+* Some questions
+- [[https://discourse.gohugo.io/t/solved-what-should-be-used-for-the-value-of-site-baseurl/5896][[SOLVED] What should be used for the value of .Site.BaseURL? - support - HUGO]]
+* Solution
+- [[https://stackoverflow.com/questions/7212290/how-can-i-commit-specific-directory-to-a-different-than-a-working-branch-on-git][github - How can I commit specific directory to a different than a working branch on git? - Stack Overflow]]
