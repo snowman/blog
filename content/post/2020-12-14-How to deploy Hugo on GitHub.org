@@ -48,3 +48,8 @@ git commit -m "$msg"
 
 git push origin gh-pages
 #+END_SRC
+
+** see also
+- [[https://stackoverflow.com/questions/8191299/update-a-submodule-to-the-latest-commit][git - Update a submodule to the latest commit - Stack Overflow]]
+- [[https://www.atlassian.com/git/tutorials/git-submodule][Git submodule | Atlassian]]
+- [[https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git][git branch - How to clone all remote branches in Git? - Stack Overflow]]
