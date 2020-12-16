@@ -32,24 +32,51 @@ Switch to =master= branch, add sub-module by following steps:
 
 ## Add "gh-pages" branch from "https://github.com/snowman/blog" as sub-module into "public" folder
 git submodule add -b gh-pages https://github.com/snowman/blog public
+#+END_SRC
 
-rm -rf public/
-hugo
-git checkout gh-pages
-rsync -avz public/ .
-rm -rf public/
+Modified from [[https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script][Host on GitHub | Hugo]], make sure submodule are cloned by running:
+#+BEGIN_SRC bash
+$ git submodule init
+$ git submodule update
+#+END_SRC
+
+#+BEGIN_SRC bash
+#!/usr/bin/env bash
+
+# If a command fails then the deploy stops
+set -e
+
+printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+
+# don't remove .git
+rm -rf public/*
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
 git add -A .
 
+# Commit changes.
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
     msg="$*"
 fi
 git commit -m "$msg"
 
-git push origin gh-pages
+# Push source and build repos.
+## Maybe need to try "git push origin HEAD:master"
+git push origin master
 #+END_SRC
 
 ** see also
 - [[https://stackoverflow.com/questions/8191299/update-a-submodule-to-the-latest-commit][git - Update a submodule to the latest commit - Stack Overflow]]
 - [[https://www.atlassian.com/git/tutorials/git-submodule][Git submodule | Atlassian]]
 - [[https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git][git branch - How to clone all remote branches in Git? - Stack Overflow]]
+- [[https://stackoverflow.com/questions/5542910/how-do-i-commit-changes-in-a-git-submodule][How do I "commit" changes in a git submodule? - Stack Overflow]]
+
+  This fixed it for me =git push origin HEAD:master=
+- [[https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git#answer-4183856][Message 'src refspec master does not match any' when pushing commits in Git - Stack Overflow]]
