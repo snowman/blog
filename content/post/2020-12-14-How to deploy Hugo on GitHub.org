@@ -13,4 +13,4 @@
 * Some questions
 - [[https://discourse.gohugo.io/t/solved-what-should-be-used-for-the-value-of-site-baseurl/5896][[SOLVED] What should be used for the value of .Site.BaseURL? - support - HUGO]]
 * Solution
-- [[https://stackoverflow.com/questions/7212290/how-can-i-commit-specific-directory-to-a-different-than-a-working-branch-on-git][github - How can I commit specific directory to a different than a working branch on git? - Stack Overflow]]
+- [[https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch][Host on GitHub | Hugo]]
