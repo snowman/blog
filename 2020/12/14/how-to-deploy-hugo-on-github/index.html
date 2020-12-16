@@ -62,7 +62,7 @@
   GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.">
 <meta itemprop="datePublished" content="2020-12-14T19:49:31+08:00" />
 <meta itemprop="dateModified" content="2020-12-14T19:49:31+08:00" />
-<meta itemprop="wordCount" content="86">
+<meta itemprop="wordCount" content="245">
 
 
 
@@ -162,6 +162,18 @@
 </li>
 <li><a href="#headline-3">Solution</a>
 </li>
+<li><a href="#headline-4">Learn</a>
+<ul>
+<li><a href="#headline-5">see also</a>
+<ul>
+<li><a href="#headline-6">git - Update a submodule to the latest commit - Stack Overflow</a>
+</li>
+<li><a href="#headline-7">Git submodule | Atlassian</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </nav>
   </div>
@@ -215,6 +227,88 @@ Solution
 <p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch">Host on GitHub | Hugo</a></p>
 </li>
 </ul>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-2">
+<h2 id="headline-4">
+Learn
+</h2>
+<div id="outline-text-headline-4" class="outline-text-2">
+<blockquote>
+<p>Use this is not recommended, using worktree solution provided from above instead.</p>
+<p>
+This is just a note about other implmentation used by <a href="https://github.com/jiacai2050/jiacai2050.github.io">jiacai2050.github.io - GitHub</a>.</p>
+</blockquote>
+<p>
+You could also create branch like <code class="verbatim">gh-pages</code> (branch name could be any
+kind), used for holding the content of <code class="verbatim">public</code> folder.</p>
+<p>
+Switch to <code class="verbatim">master</code> branch, add sub-module by following steps:</p>
+<div class="src src-bash">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">## Format:</span>
+<span class="c1">##   git submodule add -b gh-pages https://github.com/&lt;username&gt;/&lt;repos&gt; &lt;folder_name&gt;</span>
+
+<span class="c1">## Add &#34;gh-pages&#34; branch from &#34;https://github.com/snowman/blog&#34; as sub-module into &#34;public&#34; folder</span>
+git submodule add -b gh-pages https://github.com/snowman/blog public
+
+rm -rf public/
+hugo
+git checkout gh-pages
+rsync -avz public/ .
+rm -rf public/
+git add -A .
+
+<span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site </span><span class="k">$(</span>date<span class="k">)</span><span class="s2">&#34;</span>
+<span class="k">if</span> <span class="o">[</span> -n <span class="s2">&#34;</span><span class="nv">$*</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+    <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$*</span><span class="s2">&#34;</span>
+<span class="k">fi</span>
+git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
+
+git push origin gh-pages</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+see also
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<div id="outline-container-headline-6" class="outline-4">
+<h4 id="headline-6">
+<a href="https://stackoverflow.com/questions/8191299/update-a-submodule-to-the-latest-commit">git - Update a submodule to the latest commit - Stack Overflow</a>
+</h4>
+</div>
+<div id="outline-container-headline-7" class="outline-4">
+<h4 id="headline-7">
+<a href="https://www.atlassian.com/git/tutorials/git-submodule">Git submodule | Atlassian</a>
+</h4>
+</div>
+</div>
+</div>
 </div>
 </div>
 
