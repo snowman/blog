@@ -14,3 +14,37 @@
 - [[https://discourse.gohugo.io/t/solved-what-should-be-used-for-the-value-of-site-baseurl/5896][[SOLVED] What should be used for the value of .Site.BaseURL? - support - HUGO]]
 * Solution
 - [[https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch][Host on GitHub | Hugo]]
+* Learn
+#+begin_quote
+Use this is not recommended, using worktree solution provided from above instead.
+
+This is just a note about other implmentation used by [[https://github.com/jiacai2050/jiacai2050.github.io][jiacai2050.github.io - GitHub]].
+#+END_quote
+
+You could also create branch like =gh-pages= (branch name could be any
+kind), used for holding the content of =public= folder.
+
+Switch to =master= branch, add sub-module by following steps:
+
+#+BEGIN_SRC bash
+## Format:
+##   git submodule add -b gh-pages https://github.com/<username>/<repos> <folder_name>
+
+## Add "gh-pages" branch from "https://github.com/snowman/blog" as sub-module into "public" folder
+git submodule add -b gh-pages https://github.com/snowman/blog public
+
+rm -rf public/
+hugo
+git checkout gh-pages
+rsync -avz public/ .
+rm -rf public/
+git add -A .
+
+msg="rebuilding site $(date)"
+if [ -n "$*" ]; then
+    msg="$*"
+fi
+git commit -m "$msg"
+
+git push origin gh-pages
+#+END_SRC
