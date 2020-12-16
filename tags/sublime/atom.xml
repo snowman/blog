@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sublime on Even - A super concise theme for Hugo</title>
+    <link>https://snowman.github.io/blog/tags/sublime/</link>
+    <description>Recent content in sublime on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://snowman.github.io/blog/tags/sublime/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sublime Guidance</title>
+      <link>https://snowman.github.io/blog/2020/12/14/sublime-portal/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://snowman.github.io/blog/2020/12/14/sublime-portal/</guid>
+      <description>Info Sublime Text 全程指南 | lucida</description>
+    </item>
+    
+  </channel>
+</rss>

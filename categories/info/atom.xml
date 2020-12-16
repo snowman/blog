@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>info on Even - A super concise theme for Hugo</title>
+    <link>https://snowman.github.io/blog/categories/info/</link>
+    <description>Recent content in info on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://snowman.github.io/blog/categories/info/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sublime Guidance</title>
+      <link>https://snowman.github.io/blog/2020/12/14/sublime-portal/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://snowman.github.io/blog/2020/12/14/sublime-portal/</guid>
+      <description>Info Sublime Text 全程指南 | lucida</description>
+    </item>
+    
+    <item>
+      <title>Emacs Guidance</title>
+      <link>https://snowman.github.io/blog/2020/12/12/emacs-portal/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://snowman.github.io/blog/2020/12/12/emacs-portal/</guid>
+      <description>Info Emacs 入门指南: Why &amp;amp; How - Keep Coding Master Emacs in 21 Days Emacs is sexy Emacs Rocks! Master Emacs in One Year Emacs - Getting started with Emacs | Emacs Tutorial Book Harley Hahn&amp;#39;s Emacs Field Guide Mastering Emacs Writing GNU Emacs Extensions Blog Sacha Chua Forum Emacs China M-x emacs-reddit Help EmacsWiki: Site Map Xah Emacs Site Config EmacsWiki: Starter Kits Starter Kits</description>
+    </item>
+    
+  </channel>
+</rss>
