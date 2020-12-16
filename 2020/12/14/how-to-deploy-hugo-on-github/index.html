@@ -62,7 +62,7 @@
   GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.">
 <meta itemprop="datePublished" content="2020-12-14T19:49:31+08:00" />
 <meta itemprop="dateModified" content="2020-12-14T19:49:31+08:00" />
-<meta itemprop="wordCount" content="259">
+<meta itemprop="wordCount" content="390">
 
 
 
@@ -241,6 +241,38 @@ Switch to <code class="verbatim">master</code> branch, add sub-module by followi
 <div class="src src-bash">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">## Format:</span>
+<span class="c1">##   git submodule add -b gh-pages https://github.com/&lt;username&gt;/&lt;repos&gt; &lt;folder_name&gt;</span>
+
+<span class="c1">## Add &#34;gh-pages&#34; branch from &#34;https://github.com/snowman/blog&#34; as sub-module into &#34;public&#34; folder</span>
+git submodule add -b gh-pages https://github.com/snowman/blog public</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<p>
+Modified from <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script">Host on GitHub | Hugo</a>, make sure submodule are cloned by running:</p>
+<div class="src src-bash">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ git submodule init
+$ git submodule update</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<div class="src src-bash">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
@@ -261,28 +293,46 @@ Switch to <code class="verbatim">master</code> branch, add sub-module by followi
 </span><span class="lnt">18
 </span><span class="lnt">19
 </span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">## Format:</span>
-<span class="c1">##   git submodule add -b gh-pages https://github.com/&lt;username&gt;/&lt;repos&gt; &lt;folder_name&gt;</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
+</span><span class="cp"></span>
+<span class="c1"># If a command fails then the deploy stops</span>
+<span class="nb">set</span> -e
 
-<span class="c1">## Add &#34;gh-pages&#34; branch from &#34;https://github.com/snowman/blog&#34; as sub-module into &#34;public&#34; folder</span>
-git submodule add -b gh-pages https://github.com/snowman/blog public
+<span class="nb">printf</span> <span class="s2">&#34;\033[0;32mDeploying updates to GitHub...\033[0m\n&#34;</span>
 
-rm -rf public/
-hugo
-git checkout gh-pages
-rsync -avz public/ .
-rm -rf public/
+<span class="c1"># don&#39;t remove .git</span>
+rm -rf public/*
+
+<span class="c1"># Build the project.</span>
+hugo <span class="c1"># if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`</span>
+
+<span class="c1"># Go To Public folder</span>
+<span class="nb">cd</span> public
+
+<span class="c1"># Add changes to git.</span>
 git add -A .
 
+<span class="c1"># Commit changes.</span>
 <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site </span><span class="k">$(</span>date<span class="k">)</span><span class="s2">&#34;</span>
 <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&#34;</span><span class="nv">$*</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
     <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$*</span><span class="s2">&#34;</span>
 <span class="k">fi</span>
 git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
 
-git push origin gh-pages</code></pre></td></tr></table>
+<span class="c1"># Push source and build repos.</span>
+<span class="c1">## Maybe need to try &#34;git push origin HEAD:master&#34;</span>
+git push origin master</code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -300,6 +350,13 @@ see also
 </li>
 <li>
 <p><a href="https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git">git branch - How to clone all remote branches in Git? - Stack Overflow</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/5542910/how-do-i-commit-changes-in-a-git-submodule">How do I &#34;commit&#34; changes in a git submodule? - Stack Overflow</a>
+This fixed it for me <code class="verbatim">git push origin HEAD:master</code></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git#answer-4183856">Message &#39;src refspec master does not match any&#39; when pushing commits in Git - Stack Overflow</a></p>
 </li>
 </ul>
 </div>
