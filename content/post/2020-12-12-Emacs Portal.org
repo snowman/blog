@@ -10,6 +10,7 @@
 - [[http://emacsrocks.com/][Emacs Rocks!]]
 - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][Master Emacs in One Year]]
 - [[https://riptutorial.com/emacs][Emacs - Getting started with Emacs | Emacs Tutorial]]
+- [[https://github.com/Kinneyzhang/EmacsTalks][Kinneyzhang/EmacsTalks: 中文 Emacs 文章合辑]]
 * Book
 - [[http://www.harley.com/emacs/][Harley Hahn's Emacs Field Guide]]
 - [[https://www.masteringemacs.org][Mastering Emacs]]
