@@ -13,6 +13,7 @@
 - [[http://www.yinwang.org][王垠]] 当然我在扯淡
   - [[https://yinwang1.wordpress.com][正常人类收容所]]
 - [[https://liujiacai.net][刘家财]] Do have faith in what you are doing.
+- [[https://geekinney.com/][Geekinney's Blog]] Emacs is a lifestyle :-) And happy hacking emacs!
 - [[https://jysperm.me][王子亭]] 高中退学，坚持十余年的 独立博客 作者
 - [[https://1byte.io][1 Byte]] 江宏 - LeanCloud 联合创始人 / CEO
 - [[https://mednoter.com][吕小荣]] a Ruby developer
