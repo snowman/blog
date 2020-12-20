@@ -1,0 +1,5 @@
+#+TITLE: How to manage dotfiles
+#+DATE: 2020-12-19T16:14:10+08:00
+#+TAGS[]: dotfiles
+#+CATEGORIES[]: management
+#+DRAFT: true

@@ -1,0 +1,68 @@
+#+TITLE: Vim Guidance
+#+DATE: 2020-12-20T18:55:26+08:00
+#+TAGS[]: portal vim
+#+CATEGORIES[]: info
+#+DRAFT: true
+
+* info
+- =$ vimtutor=
+- [[https://www.reddit.com/r/vim/comments/br3c1x/how_to_get_started_learning_vim_is_it_worth/][How to get started learning VIM ? Is it worth trying to master ? : vim]]
+  - [[http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html][Graphical vi-vim Cheat Sheet and Tutorial]]
+  - [[https://www.openvim.com/][Interactive Vim tutorial]]
+  - [[https://vim-adventures.com/][Learn VIM while playing a game - VIM Adventures]]
+  - [[https://www.reddit.com/r/vim/comments/1u8tbi/advice_for_those_resolving_to_learn_vim/][Advice for those resolving to learn Vim : vim]]
+  - [[http://derekwyatt.org/vim/tutorials/][Vim Videos - Flarfnoogins]]
+  - [[http://vimcasts.org/][Vimcasts - Free screencasts about the text editor Vim]]
+  - [[ftp://ftp.vim.org/pub/vim/doc/book/vimbook-OPL.pdf][free VIM book]]
+  - [[http://vimdoc.sourceforge.net/htmldoc/usr_01.html][Vim documentation: usr_01]]
+  - [[https://groups.google.com/g/vim_use/c/2ZKTBdhsBC4/m/hETpTMnEAQAJ][How to use :help?]]
+  - [[https://danielmiessler.com/study/vim/][Learn vim For the Last Time: A Tutorial and Primer | Daniel Miessler]]
+  - [[https://thoughtbot.com/upcase/vim][Learn Vim | Vim Training and Tutorials]]
+- [[https://coolshell.cn/articles/5426.html][简明 Vim 练级攻略 - CoolShell]]
+  - [[http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/][YBlog - Learn Vim Progressively]]
+  - [[https://coolshell.cn/articles/5479.html][给 程序员 的 vim 速查卡 - CoolShell]]
+- [[http://www.ruanyifeng.com/blog/2018/09/vimrc.html][Vim 配置 入门 - 阮一峰 的 网络日志]]
+- [[https://learnvimscriptthehardway.stevelosh.com/][Learn Vimscript the Hard Way]]
+- [[https://blog.csdn.net/xshalk/article/details/52302373][初学者 如何 学习 Vim - CSDN]]
+- [[https://github.com/mhinz/vim-galore][mhinz/vim-galore: All things Vim!]]
+  - [[https://segmentfault.com/p/1210000008831419/read][Vim 从 入门 到 精通 全系列 教程 - SegmentFault 思否]]
+- [[http://linux.vbird.org/linux_basic/0310vi.php][鳥哥 的 Linux 私房菜 -- 第九章 Vim 程式 編輯器]]
+- [[https://vimjc.com/][Vim 教程网]]
+* Book
+- [[https://learning.oreilly.com/library/view/learning-the-vi/9780596529833/][Learning the vi and Vim Editors, 7th Edition]]
+- [[https://pragprog.com/titles/dnvim2/practical-vim-second-edition/][Practical Vim, Second Edition: Edit Text at the Speed of Thought by Drew Neil]]
+- [[https://pragprog.com/titles/modvim/modern-vim/][Modern Vim: Craft Your Development Environment with Vim 8 and Neovim by Drew Neil]]
+* Forum
+- [[https://www.reddit.com/r/vim/][VIM - Vi IMproved]]
+  - [[https://www.reddit.com/r/vim/comments/bbnywm/the_people_have_spoken/][The people have spoken : vim]]
+  - [[https://www.reddit.com/r/vim/comments/ddkd20/if_were_sharing_vim_pixel_art/][If we're sharing Vim pixel art. : vim]]
+  - [[https://www.reddit.com/r/vim/comments/j3o6uy/when_people_ask/][When people ask... : vim]]
+  - [[https://www.reddit.com/r/vim/comments/e6xlz3/an_interesting_title/][An interesting title : vim]]
+  - [[https://www.reddit.com/r/vim/comments/ebsovg/whats_the_fastest_you_can_do/][What's the fastest you can do? : vim]]
+  - [[https://www.reddit.com/r/vim/comments/b66e3t/best_practices/][Best practices : vim]]
+  - [[https://www.reddit.com/r/vim/comments/bspxk8/after_printing_this_out_90_colleagues_hate_me/][After printing this out, 90% colleagues hate me. (Inspired by u/balanaicker) : vim]]
+  - [[https://www.reddit.com/r/vim/comments/jz2jlq/should_have_been_the_esc_key/][Should have been the esc key : vim]]
+  - [[https://www.reddit.com/r/vim/comments/f7na5d/lensvim_a_vim_automatic_window_resizing_plugin/][Lens.vim: A Vim Automatic Window Resizing Plugin : vim]]
+  - [[https://www.reddit.com/r/vim/comments/gm4fzp/a_yearly_reminder_of_how_to_do_90_of_what_plugins/][A yearly reminder of How to Do 90% of What Plugins Do (With Just Vim), well well worth the watch. : vim]]
+  - [[https://www.reddit.com/r/vim/comments/fxal8p/ive_crawled_166_dotfiles_repos_and_have_generated/][I've crawled 166 dotfiles repos and have generated some vimrc statistic. : vim]]
+  - [[https://www.reddit.com/r/vim/comments/f12whl/my_new_used_vim_book/][My new used vim book :) : vim]]
+  - [[https://www.reddit.com/r/vim/comments/c389g1/vimhelp_bird_says_map_capslock_to_esc_already/][Vim-help bird says: "map caps-lock to esc already" (*also discourages use of arrow keys*) : vim]]
+  - [[https://www.reddit.com/r/vim/comments/fqnn86/at_least_one_vim_trick_you_might_not_know/][At least one Vim trick you might not know : vim]]
+  - [[https://www.reddit.com/r/vim/comments/j8uhvd/vim_spooktober_hallovim/][Vim + Spooktober = Hallovim : vim]]
+- [[http://vim-china.org/][Vim 中文社区 | Vim-China]]
+* Config
+- [[https://github.com/spf13/spf13-vim][spf13/spf13-vim: The ultimate vim distribution]]
+- [[https://github.com/tpope/vim-sensible][tpope/vim-sensible: sensible.vim: Defaults everyone can agree on]]
+* Cheat sheet
+- [[http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html][Graphical vi-vim Cheat Sheet and Tutorial]]
+- [[https://devhints.io/vim][Vim cheatsheet]]
+- [[http://michael.peopleofhonoronly.com/vim/][Vim Cheat Sheat for Programmers by Michael Pohoreski]]
+* misc
+- [[https://www.zhihu.com/question/47691414/answer/373700711][如何 在 Linux 下 利用 Vim 搭建 C/C++ 开发环境? - 韦易笑​的回答 - 知乎]]
+- [[https://www.zhihu.com/question/19989337/answer/18304091][有哪些 编程必备 的 Vim 配置? - 知乎用户的回答 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/24742679][Vim 实用 插件 推荐 (2017) - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/58816186][Vim 插件 推荐 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/33046090][YouCompleteMe 中 容易 忽略 的 配置 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/37352209][Vim script 五分钟 入门 (翻译) - 知乎]]
+- [[https://www.zhihu.com/question/23590572/answer/546352496][有哪些 好用到爆 的 Vim 插件? - 「已注销」的回答 - 知乎]]
+- [[https://xbeta.info/vim-tutorials.htm][Vim 教程 与 学习资料 汇总 (2010-02-19 更新) – 善用佳软]]
