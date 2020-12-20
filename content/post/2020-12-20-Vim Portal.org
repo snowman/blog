@@ -4,6 +4,8 @@
 #+CATEGORIES[]: info
 #+DRAFT: true
 
+[[https://www.vim.org/][welcome home : vim online]]
+
 * Book
 - [[https://learning.oreilly.com/library/view/learning-the-vi/9780596529833/][Learning the vi and Vim Editors, 7th Edition]]
 - [[https://pragprog.com/titles/dnvim2/practical-vim-second-edition/][Practical Vim, Second Edition: Edit Text at the Speed of Thought by Drew Neil]]
@@ -69,6 +71,8 @@
 - .................................................
 - [[https://vim.swaroopch.com/][A Byte of Vim]]
 - [[https://vimhelp.org/usr_toc.txt.html][Vim: usr_toc.txt]]
+- [[https://missing.csail.mit.edu/2020/editors/][Editors (Vim) · the missing semester of your cs education]]
+- [[https://wiki.archlinux.org/index.php/Vim][Vim - ArchWiki]]
 * Package
 - [[https://github.com/vim-syntastic/syntastic][vim-syntastic/syntastic: Syntax checking hacks for vim]]
 * Video
