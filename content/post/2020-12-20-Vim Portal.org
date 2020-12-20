@@ -66,3 +66,10 @@
 - [[https://zhuanlan.zhihu.com/p/37352209][Vim script 五分钟 入门 (翻译) - 知乎]]
 - [[https://www.zhihu.com/question/23590572/answer/546352496][有哪些 好用到爆 的 Vim 插件? - 「已注销」的回答 - 知乎]]
 - [[https://xbeta.info/vim-tutorials.htm][Vim 教程 与 学习资料 汇总 (2010-02-19 更新) – 善用佳软]]
+- .................................................
+- [[https://vim.swaroopch.com/][A Byte of Vim]]
+- [[https://vimhelp.org/usr_toc.txt.html][Vim: usr_toc.txt]]
+* Package
+- [[https://github.com/vim-syntastic/syntastic][vim-syntastic/syntastic: Syntax checking hacks for vim]]
+* Video
+- [[https://www.youtube.com/watch?v=E-ZbrtoSuzw&feature=youtu.be][Vim: Tutorial on Editing, Navigation, and File Management (2018) - YouTube]]
