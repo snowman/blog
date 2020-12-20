@@ -3,6 +3,10 @@
 #+TAGS[]: portal emacs
 #+CATEGORIES[]: info
 
+* Book
+- [[http://www.harley.com/emacs/][Harley Hahn's Emacs Field Guide]]
+- [[https://www.masteringemacs.org][Mastering Emacs]]
+- [[https://learning.oreilly.com/library/view/writing-gnu-emacs/9781449395056/][Writing GNU Emacs Extensions]]
 * Info
 - [[https://liujiacai.net/blog/2020/11/25/why-emacs/][Emacs 入门指南: Why & How - Keep Coding]]
 - [[http://book.emacs-china.org][Master Emacs in 21 Days]]
@@ -13,10 +17,6 @@
 - [[https://github.com/Kinneyzhang/EmacsTalks][Kinneyzhang/EmacsTalks: 中文 Emacs 文章合辑]]
 
   see [[https://geekinney.com/about/][About Page]] for more info
-* Book
-- [[http://www.harley.com/emacs/][Harley Hahn's Emacs Field Guide]]
-- [[https://www.masteringemacs.org][Mastering Emacs]]
-- [[https://learning.oreilly.com/library/view/writing-gnu-emacs/9781449395056/][Writing GNU Emacs Extensions]]
 * Blog
 - [[https://sachachua.com/blog/][Sacha Chua]]
 * Forum

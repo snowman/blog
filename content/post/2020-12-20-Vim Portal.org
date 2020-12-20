@@ -4,6 +4,10 @@
 #+CATEGORIES[]: info
 #+DRAFT: true
 
+* Book
+- [[https://learning.oreilly.com/library/view/learning-the-vi/9780596529833/][Learning the vi and Vim Editors, 7th Edition]]
+- [[https://pragprog.com/titles/dnvim2/practical-vim-second-edition/][Practical Vim, Second Edition: Edit Text at the Speed of Thought by Drew Neil]]
+- [[https://pragprog.com/titles/modvim/modern-vim/][Modern Vim: Craft Your Development Environment with Vim 8 and Neovim by Drew Neil]]
 * info
 - =$ vimtutor=
 - [[https://www.reddit.com/r/vim/comments/br3c1x/how_to_get_started_learning_vim_is_it_worth/][How to get started learning VIM ? Is it worth trying to master ? : vim]]
@@ -28,10 +32,6 @@
   - [[https://segmentfault.com/p/1210000008831419/read][Vim 从 入门 到 精通 全系列 教程 - SegmentFault 思否]]
 - [[http://linux.vbird.org/linux_basic/0310vi.php][鳥哥 的 Linux 私房菜 -- 第九章 Vim 程式 編輯器]]
 - [[https://vimjc.com/][Vim 教程网]]
-* Book
-- [[https://learning.oreilly.com/library/view/learning-the-vi/9780596529833/][Learning the vi and Vim Editors, 7th Edition]]
-- [[https://pragprog.com/titles/dnvim2/practical-vim-second-edition/][Practical Vim, Second Edition: Edit Text at the Speed of Thought by Drew Neil]]
-- [[https://pragprog.com/titles/modvim/modern-vim/][Modern Vim: Craft Your Development Environment with Vim 8 and Neovim by Drew Neil]]
 * Forum
 - [[https://www.reddit.com/r/vim/][VIM - Vi IMproved]]
   - [[https://www.reddit.com/r/vim/comments/bbnywm/the_people_have_spoken/][The people have spoken : vim]]
