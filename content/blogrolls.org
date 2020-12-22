@@ -18,6 +18,7 @@
 - [[https://1byte.io][1 Byte]] 江宏 - LeanCloud 联合创始人 / CEO
 - [[https://mednoter.com][吕小荣]] a Ruby developer
 - [[https://chloerei.com][Rei]] another Ruby developer
+- [[https://juanitofatas.com/][Juanito Fatas]] yet another Ruby developer
 - [[https://zilongshanren.com][子龙山人]] Cocos Creator
 - [[https://www.lengyueyang.com][lengyueyang]] 深度识医
 - [[http://xiaohanyu.me][Xiao Hanyu]] 行者无疆, 始于足下
